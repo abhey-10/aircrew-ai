@@ -1,0 +1,31 @@
+SIMULATED DISRUPTION RECOVERY GUIDELINES
+Document Type: Illustrative Policy — Not Real Airline Regulations
+
+Recovery Priority Framework
+When a crew disruption occurs, the AirCrewAI system evaluates recovery
+options in the following priority order:
+
+1. Keep original crew (if legally feasible despite delay)
+2. Assign available reserve crew at the departure station
+3. Swap with another active crew member with available duty time
+4. Reposition crew from a nearby station
+5. Delay the flight to wait for the original crew
+6. Cancel the flight as a last resort
+
+Cost Hierarchy
+Recovery costs in the simulated environment are structured as:
+- Reserve activation: $1,200 + standard duty pay
+- Crew swap: $800 administrative cost
+- Repositioning: $800 per crew member
+- Flight delay: delay_cost_per_minute × delay_minutes
+- Cancellation: cancellation_cost (varies by flight, typically $18,000-$55,000)
+
+Downstream Impact Consideration
+The optimizer penalizes recovery plans that leave downstream flights exposed.
+A downstream disruption penalty of $5,000 per exposed flight is applied
+to encourage recovery plans that protect the full flight sequence.
+
+Human Approval Required
+All recovery recommendations from AirCrewAI require human review and approval
+before implementation. The system is a decision-support tool, not an
+autonomous operations system.

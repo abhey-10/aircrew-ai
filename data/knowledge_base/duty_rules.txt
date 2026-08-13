@@ -1,0 +1,23 @@
+SIMULATED CREW DUTY RULES
+Document Type: Illustrative Policy — Not Real Airline Regulations
+
+Rule DUTY_01: Maximum Simulated Duty Time
+In this simulated airline environment, crew members may not exceed 600 minutes
+(10 hours) of accumulated duty time in a single duty period. Duty time begins
+at the crew member's report time and ends at scheduled release from their final
+flight of the day. Any assignment that would cause projected duty to exceed
+600 minutes is automatically flagged as a DUTY_01 violation by the legality engine.
+
+Rule DUTY_02: Duty Time Tracking
+The system tracks accumulated duty minutes for each crew member from the start
+of their assigned duty period. Accumulated duty includes all time from report
+to release across all flights in a duty sequence.
+
+Rule DUTY_03: Pre-Departure Report Time
+Crew members are required to report at least 60 minutes prior to scheduled
+departure for captain and first officer positions, and 45 minutes prior for
+flight attendant positions. Report time is included in accumulated duty calculation.
+
+Note: These rules are entirely synthetic and illustrative. Real airline duty
+rules are significantly more complex and governed by FAR Part 117 and
+collective bargaining agreements.

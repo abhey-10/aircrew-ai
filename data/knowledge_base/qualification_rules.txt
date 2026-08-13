@@ -1,0 +1,24 @@
+SIMULATED AIRCRAFT QUALIFICATION RULES
+Document Type: Illustrative Policy — Not Real Airline Regulations
+
+Rule QUAL_01: Aircraft Type Qualification
+In this simulated environment, each crew member holds qualifications for
+one or more aircraft types. The supported aircraft types are:
+- B737: Boeing 737-800 family
+- B787: Boeing 787-9 Dreamliner
+- A320: Airbus A320
+- A321: Airbus A321
+
+A crew member may only be assigned to a flight if they hold a qualification
+for the aircraft type scheduled for that flight. Assignment to an unqualified
+aircraft type is a QUAL_01 violation.
+
+Cross-Qualification
+Some crew members in the simulation hold qualifications for multiple aircraft
+types. Cross-qualified crew are more flexible for recovery assignments and
+are prioritized by the optimizer when multiple candidates are available.
+
+Qualification Check
+The legality engine performs qualification validation automatically. When
+QUAL_01 is violated, the rejection message will specify the required aircraft
+type and the crew member's actual qualifications.

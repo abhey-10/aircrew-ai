@@ -1,0 +1,34 @@
+AIRCREW AI — ML MISCONNECT RISK MODEL DOCUMENTATION
+
+Purpose
+The AirCrewAI misconnect risk model predicts the probability that a crew
+member will fail to make their next connection given current operational
+conditions. It is trained on synthetic data generated from the simulated
+airline schedule.
+
+Model: XGBoost Classifier
+The model uses gradient boosting with 200 estimators. Class imbalance
+is handled using scale_pos_weight calibration. The model outputs a
+probability score between 0 and 1.
+
+Risk Levels:
+- LOW: probability < 0.35
+- MODERATE: probability 0.35-0.60
+- HIGH: probability 0.60-0.80
+- CRITICAL: probability > 0.80
+
+Key Features (by SHAP importance):
+1. aircraft_qualified — whether crew is qualified for the aircraft
+2. effective_connection_minutes — connection time minus inbound delay
+3. inbound_delay_minutes — how late the inbound flight is
+4. weather_severity — severity of weather disruption (0-3 scale)
+5. legs_flown_today — fatigue proxy
+
+SHAP Explanations
+For each prediction, the model provides SHAP (SHapley Additive exPlanations)
+values showing the contribution of each feature to the final prediction.
+Positive SHAP values increase misconnect risk; negative values decrease it.
+
+Important Limitation
+The model is trained on synthetic data. Real-world performance would differ
+significantly. This is a portfolio demonstration of ML and XAI concepts.

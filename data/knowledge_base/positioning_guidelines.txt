@@ -1,0 +1,23 @@
+SIMULATED CREW POSITIONING GUIDELINES
+Document Type: Illustrative Policy — Not Real Airline Regulations
+
+Crew Positioning (Deadhead)
+When a crew member is not at the required departure airport, they may be
+positioned via a deadhead flight to the correct location. In this simulation,
+positioning is evaluated as an option by the recovery optimizer.
+
+Rule LOC_01: Location Requirement
+Crew must be physically located at the departure airport of their assigned
+flight. The legality engine checks the crew member's current_location field
+against the flight's origin airport code. A mismatch results in a LOC_01
+violation.
+
+Positioning Cost
+Simulated positioning/deadhead cost is $800 per crew member per positioning
+event. This cost is included in the optimizer's objective function when
+evaluating recovery plans that require repositioning.
+
+Positioning Feasibility
+Positioning is only feasible if there is a suitable flight from the crew
+member's current location to the required departure airport with sufficient
+lead time before the disrupted flight's departure.

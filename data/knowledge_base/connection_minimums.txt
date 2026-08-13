@@ -1,0 +1,27 @@
+SIMULATED CREW CONNECTION TIME REQUIREMENTS
+Document Type: Illustrative Policy — Not Real Airline Regulations
+
+Rule CONN_01: Minimum Connection Time
+In this simulated environment, crew members require a minimum of 30 minutes
+of connection time between the arrival of their inbound flight and the
+departure of their next assigned flight. This minimum reflects simulated
+time required for deplaning, walking between gates, and crew briefing.
+
+Effective Connection Calculation
+When an inbound flight experiences a delay, the effective connection time
+is calculated as:
+
+  effective_connection = scheduled_connection_minutes - inbound_delay_minutes
+
+If the effective connection falls below 30 minutes, the CONN_01 rule is
+violated and the crew is considered unable to make the connection.
+
+Hub Airport Connection Times
+Larger hub airports in the simulation (ORD, DFW, CLT, MIA) have higher
+congestion indices, which increases the real-world (though not simulated)
+risk of crew misconnection even when the 30-minute minimum is technically met.
+The ML misconnect risk model accounts for airport congestion as a feature.
+
+Warning Threshold
+A CONN_WARN advisory is issued when effective connection time is between
+30 and 45 minutes, indicating a tight but legally permissible connection.

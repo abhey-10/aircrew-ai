@@ -164,6 +164,9 @@ def generate_assignments(flights: list, crew: list) -> list:
     assignments = []
     assignment_id = 1
 
+    # Sort flights by departure time for sequential pairing
+    sorted_flights = sorted(flights, key=lambda x: x["scheduled_departure"])
+
     # Group crew by role
     captains = [c for c in crew if c["role"] == "CAPTAIN" and c["availability"] and not c["reserve_status"]]
     first_officers = [c for c in crew if c["role"] == "FIRST_OFFICER" and c["availability"] and not c["reserve_status"]]
@@ -177,7 +180,7 @@ def generate_assignments(flights: list, crew: list) -> list:
     fo_idx = 0
     fa_idx = 0
 
-    for flight in flights:
+    for i, flight in enumerate(sorted_flights):
         ac_type = flight["aircraft_type"]
         ac_info = AIRCRAFT_TYPES[ac_type]
         dep_time = flight["scheduled_departure"]
@@ -188,6 +191,7 @@ def generate_assignments(flights: list, crew: list) -> list:
             c = captains[cap_idx]
             cap_idx += 1
             report_time = (datetime.fromisoformat(dep_time) - timedelta(minutes=60)).strftime("%Y-%m-%dT%H:%M:00")
+            connection_mins = random.randint(35, 90)
             assignments.append({
                 "assignment_id": f"A{assignment_id}",
                 "crew_id": c["crew_id"],
@@ -195,16 +199,32 @@ def generate_assignments(flights: list, crew: list) -> list:
                 "role": "CAPTAIN",
                 "report_time": report_time,
                 "scheduled_release": arr_time,
-                "connection_minutes": random.randint(35, 120),
+                "connection_minutes": connection_mins,
                 "sequence": 1,
             })
             assignment_id += 1
+            # 40% chance captain gets next flight too (crew pairing)
+            if i + 1 < len(sorted_flights) and random.random() < 0.40:
+                nf = sorted_flights[i + 1]
+                nr = (datetime.fromisoformat(nf["scheduled_departure"]) - timedelta(minutes=60)).strftime("%Y-%m-%dT%H:%M:00")
+                assignments.append({
+                    "assignment_id": f"A{assignment_id}",
+                    "crew_id": c["crew_id"],
+                    "flight_id": nf["flight_id"],
+                    "role": "CAPTAIN",
+                    "report_time": nr,
+                    "scheduled_release": nf["scheduled_arrival"],
+                    "connection_minutes": connection_mins,
+                    "sequence": 2,
+                })
+                assignment_id += 1
 
         # Assign first officer
         if fo_idx < len(first_officers):
             c = first_officers[fo_idx]
             fo_idx += 1
             report_time = (datetime.fromisoformat(dep_time) - timedelta(minutes=60)).strftime("%Y-%m-%dT%H:%M:00")
+            connection_mins = random.randint(35, 90)
             assignments.append({
                 "assignment_id": f"A{assignment_id}",
                 "crew_id": c["crew_id"],
@@ -212,10 +232,25 @@ def generate_assignments(flights: list, crew: list) -> list:
                 "role": "FIRST_OFFICER",
                 "report_time": report_time,
                 "scheduled_release": arr_time,
-                "connection_minutes": random.randint(35, 120),
+                "connection_minutes": connection_mins,
                 "sequence": 1,
             })
             assignment_id += 1
+            # 40% chance FO gets next flight too
+            if i + 1 < len(sorted_flights) and random.random() < 0.40:
+                nf = sorted_flights[i + 1]
+                nr = (datetime.fromisoformat(nf["scheduled_departure"]) - timedelta(minutes=60)).strftime("%Y-%m-%dT%H:%M:00")
+                assignments.append({
+                    "assignment_id": f"A{assignment_id}",
+                    "crew_id": c["crew_id"],
+                    "flight_id": nf["flight_id"],
+                    "role": "FIRST_OFFICER",
+                    "report_time": nr,
+                    "scheduled_release": nf["scheduled_arrival"],
+                    "connection_minutes": connection_mins,
+                    "sequence": 2,
+                })
+                assignment_id += 1
 
         # Assign flight attendants
         for _ in range(ac_info["fa_count"]):
@@ -230,7 +265,7 @@ def generate_assignments(flights: list, crew: list) -> list:
                     "role": "FLIGHT_ATTENDANT",
                     "report_time": report_time,
                     "scheduled_release": arr_time,
-                    "connection_minutes": random.randint(30, 90),
+                    "connection_minutes": random.randint(30, 75),
                     "sequence": 1,
                 })
                 assignment_id += 1

@@ -1,0 +1,27 @@
+SIMULATED FLIGHT CANCELLATION DECISION GUIDELINES
+Document Type: Illustrative Policy — Not Real Airline Regulations
+
+When to Consider Cancellation
+In the simulated environment, flight cancellation is evaluated as an option
+when all other recovery strategies are infeasible or would result in greater
+total cost than cancellation itself.
+
+Cancellation costs in the simulation include:
+- Base cancellation processing cost (flight-specific, $18,000-$55,000)
+- Passenger rebooking costs
+- Downstream flight exposure penalties
+
+Delay vs Cancel Tradeoff
+Research on airline disruption recovery (including the RecovAir methodology
+referenced in this project) suggests that aggressive cancellation policies
+often produce higher total costs than delay-and-recover strategies. This is
+because per-passenger rebooking costs accumulate rapidly with cancellation,
+while delay costs are more gradual.
+
+The optimizer evaluates both delay and cancellation options and selects
+the minimum-cost feasible recovery.
+
+Passenger Impact
+Cancelled flights have higher passenger impact scores in the simulation,
+as affected passengers must be rebooked and may miss connections. The
+optimizer weights passenger impact as part of its objective function.

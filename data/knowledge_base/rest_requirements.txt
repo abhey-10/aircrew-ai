@@ -1,0 +1,18 @@
+SIMULATED CREW REST REQUIREMENTS
+Document Type: Illustrative Policy — Not Real Airline Regulations
+
+Rule REST_01: Minimum Rest Between Duty Periods
+In this simulated environment, crew members must receive a minimum of 480 minutes
+(8 hours) of rest between consecutive duty periods. Rest is measured from the
+time of release from the previous duty period to the next report time.
+
+Rule REST_02: Rest Period Definition
+A rest period is an uninterrupted period during which the crew member is free
+from all duty obligations. Positioning or deadhead travel is NOT considered rest
+for the purposes of this simulated rule.
+
+Rule REST_03: Extended Operations
+For simulated flights exceeding 300 minutes of flight time, crew members must
+receive an additional 60 minutes of rest above the standard REST_01 minimum.
+
+Note: These are simulated rules for the AirCrewAI portfolio project only.

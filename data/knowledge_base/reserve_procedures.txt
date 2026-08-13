@@ -1,0 +1,24 @@
+SIMULATED RESERVE CREW PROCEDURES
+Document Type: Illustrative Policy — Not Real Airline Regulations
+
+Reserve Activation Policy
+Reserve crew members in this simulation are available for assignment when:
+1. Their reserve_status field is set to True
+2. Their availability field is set to True
+3. They have sufficient remaining duty time for the proposed assignment
+4. They are located at or can be positioned to the required departure airport
+
+Reserve Crew Priority
+When the recovery optimizer generates candidate crews, reserve crew members
+are considered as a primary recovery resource. Activating a reserve crew
+incurs a simulated reserve activation cost of $1,200 in addition to
+standard assignment costs.
+
+Reserve crew members are NOT available if:
+- They have already exceeded their daily availability window
+- Their availability flag is set to False
+- They would violate any other simulated legality rule
+
+Rule RESERVE_01: Reserve Activation Constraint
+Reserve crew can only be activated when explicitly flagged as available
+in the simulated roster system.

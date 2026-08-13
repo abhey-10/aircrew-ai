@@ -1,16 +1,20 @@
 {
   "disruption_id": "DEMO_001",
-  "flight_id": "F163",
-  "flight_number": "AA1063",
+  "flight_id": "F160",
+  "flight_number": "AA1060",
   "origin": "ORD",
-  "destination": "DFW",
+  "destination": "JFK",
   "delay_minutes": 105,
   "disruption_type": "WEATHER_DELAY",
-  "description": "Severe weather at ORD causing significant ground delay",
-  "scheduled_departure": "2026-08-12T11:12:00",
+  "description": "Severe weather causing significant ground delay",
+  "scheduled_departure": "2026-08-12T05:39:00",
   "assigned_crew_ids": [
-    "C174",
-    "C225"
+    "C235",
+    "C172",
+    "C116",
+    "C247",
+    "C085",
+    "C165"
   ],
   "status": "ACTIVE"
 }
