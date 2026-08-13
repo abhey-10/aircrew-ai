@@ -1,0 +1,84 @@
+{
+  "training_samples": 3954,
+  "test_samples": 989,
+  "misconnect_rate": 0.7265,
+  "models": [
+    {
+      "model": "Logistic Regression (Baseline)",
+      "roc_auc": 0.892,
+      "pr_auc": 0.9595,
+      "precision": 0.9471,
+      "recall": 0.773,
+      "f1": 0.8512
+    },
+    {
+      "model": "XGBoost (Main Model)",
+      "roc_auc": 0.8857,
+      "pr_auc": 0.9586,
+      "precision": 0.9253,
+      "recall": 0.7939,
+      "f1": 0.8546,
+      "cv_roc_auc_mean": NaN,
+      "cv_roc_auc_std": NaN
+    }
+  ],
+  "shap_global_importance": [
+    {
+      "feature": "aircraft_qualified",
+      "mean_abs_shap": 1.2453434467315674
+    },
+    {
+      "feature": "effective_connection_minutes",
+      "mean_abs_shap": 0.8007221817970276
+    },
+    {
+      "feature": "inbound_delay_minutes",
+      "mean_abs_shap": 0.6967585682868958
+    },
+    {
+      "feature": "weather_severity",
+      "mean_abs_shap": 0.31987106800079346
+    },
+    {
+      "feature": "legs_flown_today",
+      "mean_abs_shap": 0.206184521317482
+    },
+    {
+      "feature": "network_congestion",
+      "mean_abs_shap": 0.16598093509674072
+    },
+    {
+      "feature": "is_hub_airport",
+      "mean_abs_shap": 0.1535319834947586
+    },
+    {
+      "feature": "turnaround_time",
+      "mean_abs_shap": 0.1488073766231537
+    },
+    {
+      "feature": "is_peak_hour",
+      "mean_abs_shap": 0.12654079496860504
+    },
+    {
+      "feature": "hour_of_day",
+      "mean_abs_shap": 0.11486539989709854
+    },
+    {
+      "feature": "scheduled_connection_minutes",
+      "mean_abs_shap": 0.11401388794183731
+    },
+    {
+      "feature": "accumulated_duty_minutes",
+      "mean_abs_shap": 0.10004115849733353
+    },
+    {
+      "feature": "airport_congestion_index",
+      "mean_abs_shap": 0.08587072044610977
+    },
+    {
+      "feature": "remaining_duty_minutes",
+      "mean_abs_shap": 0.03213779628276825
+    }
+  ],
+  "winner": "LogisticRegression"
+}

@@ -1,0 +1,16 @@
+{
+  "disruption_id": "DEMO_001",
+  "flight_id": "F163",
+  "flight_number": "AA1063",
+  "origin": "ORD",
+  "destination": "DFW",
+  "delay_minutes": 105,
+  "disruption_type": "WEATHER_DELAY",
+  "description": "Severe weather at ORD causing significant ground delay",
+  "scheduled_departure": "2026-08-12T11:12:00",
+  "assigned_crew_ids": [
+    "C174",
+    "C225"
+  ],
+  "status": "ACTIVE"
+}

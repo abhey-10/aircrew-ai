@@ -1,0 +1,4311 @@
+[
+  {
+    "crew_id": "C001",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:21:00",
+    "accumulated_duty_minutes": 151,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C002",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:52:00",
+    "accumulated_duty_minutes": 83,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C003",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:59:00",
+    "accumulated_duty_minutes": 57,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C004",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787",
+      "B737",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T09:42:00",
+    "accumulated_duty_minutes": 29,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C005",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "B737",
+      "A321",
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:56:00",
+    "accumulated_duty_minutes": 6,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C006",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B787",
+      "B737",
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:49:00",
+    "accumulated_duty_minutes": 10,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C007",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:05:00",
+    "accumulated_duty_minutes": 162,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C008",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T07:43:00",
+    "accumulated_duty_minutes": 151,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C009",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:13:00",
+    "accumulated_duty_minutes": 83,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C010",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "B737",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:43:00",
+    "accumulated_duty_minutes": 61,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C011",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:53:00",
+    "accumulated_duty_minutes": 103,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C012",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "A320",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:18:00",
+    "accumulated_duty_minutes": 78,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C013",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:50:00",
+    "accumulated_duty_minutes": 123,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C014",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:34:00",
+    "accumulated_duty_minutes": 3,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C015",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:52:00",
+    "accumulated_duty_minutes": 3,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C016",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:25:00",
+    "accumulated_duty_minutes": 125,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C017",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:45:00",
+    "accumulated_duty_minutes": 106,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C018",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T09:17:00",
+    "accumulated_duty_minutes": 15,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C019",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "B737",
+      "A321",
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T08:42:00",
+    "accumulated_duty_minutes": 19,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C020",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T04:36:00",
+    "accumulated_duty_minutes": 175,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C021",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:12:00",
+    "accumulated_duty_minutes": 18,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C022",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:16:00",
+    "accumulated_duty_minutes": 138,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C023",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:57:00",
+    "accumulated_duty_minutes": 172,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C024",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:59:00",
+    "accumulated_duty_minutes": 111,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C025",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T06:48:00",
+    "accumulated_duty_minutes": 105,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C026",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "A320",
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T08:23:00",
+    "accumulated_duty_minutes": 0,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C027",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T05:44:00",
+    "accumulated_duty_minutes": 68,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C028",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T06:39:00",
+    "accumulated_duty_minutes": 141,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C029",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:29:00",
+    "accumulated_duty_minutes": 130,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C030",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:37:00",
+    "accumulated_duty_minutes": 153,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C031",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:00:00",
+    "accumulated_duty_minutes": 148,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C032",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:36:00",
+    "accumulated_duty_minutes": 178,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C033",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:13:00",
+    "accumulated_duty_minutes": 9,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C034",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T05:13:00",
+    "accumulated_duty_minutes": 104,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C035",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:45:00",
+    "accumulated_duty_minutes": 136,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C036",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:50:00",
+    "accumulated_duty_minutes": 73,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C037",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T04:14:00",
+    "accumulated_duty_minutes": 11,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C038",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T05:29:00",
+    "accumulated_duty_minutes": 20,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C039",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T09:41:00",
+    "accumulated_duty_minutes": 2,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C040",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T06:08:00",
+    "accumulated_duty_minutes": 116,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C041",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:31:00",
+    "accumulated_duty_minutes": 5,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C042",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T05:52:00",
+    "accumulated_duty_minutes": 162,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C043",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:56:00",
+    "accumulated_duty_minutes": 93,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C044",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:11:00",
+    "accumulated_duty_minutes": 123,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C045",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:07:00",
+    "accumulated_duty_minutes": 23,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C046",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T04:55:00",
+    "accumulated_duty_minutes": 172,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C047",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T06:34:00",
+    "accumulated_duty_minutes": 166,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C048",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:52:00",
+    "accumulated_duty_minutes": 94,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C049",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:16:00",
+    "accumulated_duty_minutes": 176,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C050",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "B737",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:37:00",
+    "accumulated_duty_minutes": 31,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C051",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:50:00",
+    "accumulated_duty_minutes": 62,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C052",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T04:01:00",
+    "accumulated_duty_minutes": 70,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C053",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T04:07:00",
+    "accumulated_duty_minutes": 91,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C054",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T04:32:00",
+    "accumulated_duty_minutes": 121,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C055",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:29:00",
+    "accumulated_duty_minutes": 7,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C056",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:11:00",
+    "accumulated_duty_minutes": 37,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C057",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "A321",
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T04:50:00",
+    "accumulated_duty_minutes": 179,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C058",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:32:00",
+    "accumulated_duty_minutes": 24,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C059",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T04:47:00",
+    "accumulated_duty_minutes": 110,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C060",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:40:00",
+    "accumulated_duty_minutes": 108,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C061",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787",
+      "B737",
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T04:55:00",
+    "accumulated_duty_minutes": 89,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C062",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B737",
+      "A320",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:32:00",
+    "accumulated_duty_minutes": 69,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C063",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T09:24:00",
+    "accumulated_duty_minutes": 7,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C064",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T09:05:00",
+    "accumulated_duty_minutes": 21,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C065",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:32:00",
+    "accumulated_duty_minutes": 69,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C066",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T05:52:00",
+    "accumulated_duty_minutes": 101,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C067",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:14:00",
+    "accumulated_duty_minutes": 110,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C068",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:55:00",
+    "accumulated_duty_minutes": 19,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C069",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T09:16:00",
+    "accumulated_duty_minutes": 117,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C070",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T06:38:00",
+    "accumulated_duty_minutes": 86,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C071",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T09:30:00",
+    "accumulated_duty_minutes": 37,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C072",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:56:00",
+    "accumulated_duty_minutes": 114,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C073",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:23:00",
+    "accumulated_duty_minutes": 77,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C074",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:08:00",
+    "accumulated_duty_minutes": 73,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C075",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:09:00",
+    "accumulated_duty_minutes": 121,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C076",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:06:00",
+    "accumulated_duty_minutes": 112,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C077",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T09:23:00",
+    "accumulated_duty_minutes": 165,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C078",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "B787",
+      "A321",
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T06:59:00",
+    "accumulated_duty_minutes": 79,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C079",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:59:00",
+    "accumulated_duty_minutes": 175,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C080",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:08:00",
+    "accumulated_duty_minutes": 49,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C081",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:16:00",
+    "accumulated_duty_minutes": 33,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C082",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:01:00",
+    "accumulated_duty_minutes": 113,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C083",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B787",
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:56:00",
+    "accumulated_duty_minutes": 72,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C084",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:06:00",
+    "accumulated_duty_minutes": 95,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C085",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A321",
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:43:00",
+    "accumulated_duty_minutes": 23,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C086",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:17:00",
+    "accumulated_duty_minutes": 20,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C087",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A321",
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:00:00",
+    "accumulated_duty_minutes": 114,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C088",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T06:01:00",
+    "accumulated_duty_minutes": 77,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C089",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "A320",
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T06:29:00",
+    "accumulated_duty_minutes": 109,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C090",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "B737",
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T08:00:00",
+    "accumulated_duty_minutes": 11,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C091",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:57:00",
+    "accumulated_duty_minutes": 85,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C092",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T04:32:00",
+    "accumulated_duty_minutes": 117,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C093",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T09:31:00",
+    "accumulated_duty_minutes": 48,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C094",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:45:00",
+    "accumulated_duty_minutes": 98,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C095",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A321",
+      "B737",
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:39:00",
+    "accumulated_duty_minutes": 75,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C096",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "B787",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:59:00",
+    "accumulated_duty_minutes": 114,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C097",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:06:00",
+    "accumulated_duty_minutes": 131,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C098",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:00:00",
+    "accumulated_duty_minutes": 165,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C099",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "A321",
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:31:00",
+    "accumulated_duty_minutes": 93,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C100",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T06:13:00",
+    "accumulated_duty_minutes": 180,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C101",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:28:00",
+    "accumulated_duty_minutes": 113,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C102",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:20:00",
+    "accumulated_duty_minutes": 179,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C103",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:59:00",
+    "accumulated_duty_minutes": 141,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C104",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T04:37:00",
+    "accumulated_duty_minutes": 32,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C105",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T07:41:00",
+    "accumulated_duty_minutes": 128,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C106",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:25:00",
+    "accumulated_duty_minutes": 72,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C107",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B737",
+      "A320",
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:27:00",
+    "accumulated_duty_minutes": 168,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C108",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:33:00",
+    "accumulated_duty_minutes": 158,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C109",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T07:52:00",
+    "accumulated_duty_minutes": 18,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C110",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T06:43:00",
+    "accumulated_duty_minutes": 88,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C111",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:50:00",
+    "accumulated_duty_minutes": 63,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C112",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320",
+      "B737",
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T08:23:00",
+    "accumulated_duty_minutes": 119,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C113",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T04:24:00",
+    "accumulated_duty_minutes": 12,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C114",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:15:00",
+    "accumulated_duty_minutes": 93,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C115",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:18:00",
+    "accumulated_duty_minutes": 115,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C116",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:13:00",
+    "accumulated_duty_minutes": 50,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C117",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:23:00",
+    "accumulated_duty_minutes": 35,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C118",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T04:08:00",
+    "accumulated_duty_minutes": 94,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C119",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:56:00",
+    "accumulated_duty_minutes": 147,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C120",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T05:37:00",
+    "accumulated_duty_minutes": 4,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C121",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T05:10:00",
+    "accumulated_duty_minutes": 132,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C122",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T09:12:00",
+    "accumulated_duty_minutes": 123,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C123",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T08:05:00",
+    "accumulated_duty_minutes": 89,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C124",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:28:00",
+    "accumulated_duty_minutes": 10,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C125",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:35:00",
+    "accumulated_duty_minutes": 69,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C126",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T04:26:00",
+    "accumulated_duty_minutes": 25,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C127",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:33:00",
+    "accumulated_duty_minutes": 51,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C128",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T05:29:00",
+    "accumulated_duty_minutes": 106,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C129",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B737",
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T08:50:00",
+    "accumulated_duty_minutes": 154,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C130",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:49:00",
+    "accumulated_duty_minutes": 41,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C131",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "B787",
+      "B737",
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:23:00",
+    "accumulated_duty_minutes": 83,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C132",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:16:00",
+    "accumulated_duty_minutes": 60,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C133",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T09:41:00",
+    "accumulated_duty_minutes": 30,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C134",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T05:52:00",
+    "accumulated_duty_minutes": 34,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C135",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "B787",
+      "B737",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:30:00",
+    "accumulated_duty_minutes": 180,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C136",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:26:00",
+    "accumulated_duty_minutes": 113,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C137",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:53:00",
+    "accumulated_duty_minutes": 144,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C138",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787",
+      "A320",
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:36:00",
+    "accumulated_duty_minutes": 88,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C139",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T09:28:00",
+    "accumulated_duty_minutes": 165,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C140",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B787",
+      "A320",
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T05:31:00",
+    "accumulated_duty_minutes": 137,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C141",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A321",
+      "A320",
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:06:00",
+    "accumulated_duty_minutes": 117,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C142",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737",
+      "A321",
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T04:51:00",
+    "accumulated_duty_minutes": 152,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C143",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B787",
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T04:28:00",
+    "accumulated_duty_minutes": 35,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C144",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "B787",
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T09:38:00",
+    "accumulated_duty_minutes": 133,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C145",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:29:00",
+    "accumulated_duty_minutes": 171,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C146",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T05:55:00",
+    "accumulated_duty_minutes": 76,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C147",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:04:00",
+    "accumulated_duty_minutes": 65,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C148",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T07:13:00",
+    "accumulated_duty_minutes": 172,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C149",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:37:00",
+    "accumulated_duty_minutes": 30,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C150",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:33:00",
+    "accumulated_duty_minutes": 166,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C151",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T06:40:00",
+    "accumulated_duty_minutes": 105,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C152",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T06:48:00",
+    "accumulated_duty_minutes": 58,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C153",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:00:00",
+    "accumulated_duty_minutes": 43,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C154",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:31:00",
+    "accumulated_duty_minutes": 35,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C155",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B737",
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:37:00",
+    "accumulated_duty_minutes": 124,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C156",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:57:00",
+    "accumulated_duty_minutes": 172,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C157",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:01:00",
+    "accumulated_duty_minutes": 68,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C158",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:41:00",
+    "accumulated_duty_minutes": 167,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C159",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T04:04:00",
+    "accumulated_duty_minutes": 179,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C160",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:48:00",
+    "accumulated_duty_minutes": 177,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C161",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T06:41:00",
+    "accumulated_duty_minutes": 4,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C162",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B787",
+      "A320",
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:16:00",
+    "accumulated_duty_minutes": 35,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C163",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:54:00",
+    "accumulated_duty_minutes": 154,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C164",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:02:00",
+    "accumulated_duty_minutes": 141,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C165",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:17:00",
+    "accumulated_duty_minutes": 39,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C166",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T06:37:00",
+    "accumulated_duty_minutes": 113,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C167",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:45:00",
+    "accumulated_duty_minutes": 90,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C168",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:52:00",
+    "accumulated_duty_minutes": 133,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C169",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T07:42:00",
+    "accumulated_duty_minutes": 70,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C170",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:54:00",
+    "accumulated_duty_minutes": 34,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C171",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:44:00",
+    "accumulated_duty_minutes": 154,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C172",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:12:00",
+    "accumulated_duty_minutes": 71,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C173",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:47:00",
+    "accumulated_duty_minutes": 112,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C174",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T09:37:00",
+    "accumulated_duty_minutes": 39,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C175",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:59:00",
+    "accumulated_duty_minutes": 137,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C176",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:48:00",
+    "accumulated_duty_minutes": 165,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C177",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B787",
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:48:00",
+    "accumulated_duty_minutes": 95,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C178",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T04:43:00",
+    "accumulated_duty_minutes": 29,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C179",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T04:49:00",
+    "accumulated_duty_minutes": 112,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C180",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T05:24:00",
+    "accumulated_duty_minutes": 62,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C181",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:27:00",
+    "accumulated_duty_minutes": 168,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C182",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "B737",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:45:00",
+    "accumulated_duty_minutes": 71,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C183",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:58:00",
+    "accumulated_duty_minutes": 67,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C184",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:54:00",
+    "accumulated_duty_minutes": 158,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C185",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:59:00",
+    "accumulated_duty_minutes": 46,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C186",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T09:25:00",
+    "accumulated_duty_minutes": 137,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C187",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:17:00",
+    "accumulated_duty_minutes": 13,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C188",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:11:00",
+    "accumulated_duty_minutes": 106,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C189",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T06:27:00",
+    "accumulated_duty_minutes": 43,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C190",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:45:00",
+    "accumulated_duty_minutes": 139,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C191",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "A320",
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:00:00",
+    "accumulated_duty_minutes": 60,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C192",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:51:00",
+    "accumulated_duty_minutes": 89,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C193",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "PHX",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T07:30:00",
+    "accumulated_duty_minutes": 15,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C194",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:21:00",
+    "accumulated_duty_minutes": 125,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C195",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T06:22:00",
+    "accumulated_duty_minutes": 177,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C196",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T09:40:00",
+    "accumulated_duty_minutes": 178,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C197",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "A320",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:40:00",
+    "accumulated_duty_minutes": 147,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C198",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:45:00",
+    "accumulated_duty_minutes": 116,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C199",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:04:00",
+    "accumulated_duty_minutes": 64,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C200",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "B787",
+      "A321",
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T04:00:00",
+    "accumulated_duty_minutes": 54,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C201",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:55:00",
+    "accumulated_duty_minutes": 33,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C202",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:08:00",
+    "accumulated_duty_minutes": 164,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C203",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T09:21:00",
+    "accumulated_duty_minutes": 38,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C204",
+    "role": "FIRST_OFFICER",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:59:00",
+    "accumulated_duty_minutes": 109,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C205",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T06:34:00",
+    "accumulated_duty_minutes": 52,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C206",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A321",
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:15:00",
+    "accumulated_duty_minutes": 163,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C207",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "B737",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T04:37:00",
+    "accumulated_duty_minutes": 4,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C208",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:25:00",
+    "accumulated_duty_minutes": 21,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C209",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T08:34:00",
+    "accumulated_duty_minutes": 83,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C210",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:44:00",
+    "accumulated_duty_minutes": 111,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C211",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T05:23:00",
+    "accumulated_duty_minutes": 127,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C212",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T06:51:00",
+    "accumulated_duty_minutes": 109,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C213",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:08:00",
+    "accumulated_duty_minutes": 40,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C214",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:23:00",
+    "accumulated_duty_minutes": 120,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C215",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T06:07:00",
+    "accumulated_duty_minutes": 106,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C216",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "DEN",
+    "aircraft_qualifications": [
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:24:00",
+    "accumulated_duty_minutes": 11,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C217",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:42:00",
+    "accumulated_duty_minutes": 74,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C218",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "LAX",
+    "aircraft_qualifications": [
+      "B787",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T04:03:00",
+    "accumulated_duty_minutes": 104,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C219",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A320",
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:31:00",
+    "accumulated_duty_minutes": 60,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C220",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:31:00",
+    "accumulated_duty_minutes": 179,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C221",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B737",
+      "A320",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:42:00",
+    "accumulated_duty_minutes": 169,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C222",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "JFK",
+    "aircraft_qualifications": [
+      "A320",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T04:38:00",
+    "accumulated_duty_minutes": 51,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C223",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:34:00",
+    "accumulated_duty_minutes": 91,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C224",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:47:00",
+    "accumulated_duty_minutes": 37,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C225",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T07:27:00",
+    "accumulated_duty_minutes": 115,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C226",
+    "role": "CAPTAIN",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T05:06:00",
+    "accumulated_duty_minutes": 50,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C227",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:41:00",
+    "accumulated_duty_minutes": 165,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C228",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:41:00",
+    "accumulated_duty_minutes": 101,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C229",
+    "role": "FIRST_OFFICER",
+    "base": "CLT",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T04:17:00",
+    "accumulated_duty_minutes": 157,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C230",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:16:00",
+    "accumulated_duty_minutes": 35,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C231",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A320",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:56:00",
+    "accumulated_duty_minutes": 144,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C232",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T08:31:00",
+    "accumulated_duty_minutes": 91,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": false,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C233",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "B737",
+      "A321",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T07:01:00",
+    "accumulated_duty_minutes": 44,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C234",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A320",
+      "A321",
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T08:12:00",
+    "accumulated_duty_minutes": 138,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C235",
+    "role": "CAPTAIN",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T09:14:00",
+    "accumulated_duty_minutes": 51,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C236",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T08:29:00",
+    "accumulated_duty_minutes": 93,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C237",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "A320",
+      "B737",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T07:43:00",
+    "accumulated_duty_minutes": 163,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C238",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T06:37:00",
+    "accumulated_duty_minutes": 176,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C239",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "MIA",
+    "aircraft_qualifications": [
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T08:49:00",
+    "accumulated_duty_minutes": 26,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C240",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "DFW",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "B737",
+      "A320",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T04:05:00",
+    "accumulated_duty_minutes": 67,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C241",
+    "role": "FIRST_OFFICER",
+    "base": "ORD",
+    "current_location": "ORD",
+    "aircraft_qualifications": [
+      "A321",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T07:34:00",
+    "accumulated_duty_minutes": 42,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C242",
+    "role": "FIRST_OFFICER",
+    "base": "MIA",
+    "current_location": "BOS",
+    "aircraft_qualifications": [
+      "B787"
+    ],
+    "duty_start": "2026-08-12T07:51:00",
+    "accumulated_duty_minutes": 18,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C243",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:22:00",
+    "accumulated_duty_minutes": 19,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C244",
+    "role": "CAPTAIN",
+    "base": "MIA",
+    "current_location": "LGA",
+    "aircraft_qualifications": [
+      "A321"
+    ],
+    "duty_start": "2026-08-12T05:20:00",
+    "accumulated_duty_minutes": 13,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": true,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C245",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "ATL",
+    "aircraft_qualifications": [
+      "B737"
+    ],
+    "duty_start": "2026-08-12T04:25:00",
+    "accumulated_duty_minutes": 100,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C246",
+    "role": "CAPTAIN",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A321",
+      "B737"
+    ],
+    "duty_start": "2026-08-12T04:49:00",
+    "accumulated_duty_minutes": 6,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C247",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321",
+      "A320",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T04:46:00",
+    "accumulated_duty_minutes": 164,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C248",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "CLT",
+    "current_location": "CLT",
+    "aircraft_qualifications": [
+      "A321",
+      "B787",
+      "A320"
+    ],
+    "duty_start": "2026-08-12T05:55:00",
+    "accumulated_duty_minutes": 68,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C249",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "ORD",
+    "current_location": "DFW",
+    "aircraft_qualifications": [
+      "A321",
+      "A320",
+      "B737",
+      "B787"
+    ],
+    "duty_start": "2026-08-12T07:18:00",
+    "accumulated_duty_minutes": 133,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  },
+  {
+    "crew_id": "C250",
+    "role": "FLIGHT_ATTENDANT",
+    "base": "MIA",
+    "current_location": "SEA",
+    "aircraft_qualifications": [
+      "B737",
+      "B787",
+      "A321"
+    ],
+    "duty_start": "2026-08-12T08:17:00",
+    "accumulated_duty_minutes": 146,
+    "max_duty_minutes": 600,
+    "min_rest_minutes": 480,
+    "reserve_status": false,
+    "availability": true,
+    "pairing_id": null
+  }
+]

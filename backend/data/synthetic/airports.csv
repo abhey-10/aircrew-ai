@@ -1,0 +1,13 @@
+code,city,state,lat,lon,congestion_index,is_hub
+ORD,Chicago,IL,41.97,-87.9,0.85,True
+DFW,Dallas,TX,32.89,-97.04,0.8,True
+CLT,Charlotte,NC,35.21,-80.94,0.7,True
+MIA,Miami,FL,25.79,-80.29,0.72,True
+PHX,Phoenix,AZ,33.43,-112.01,0.6,False
+LAX,Los Angeles,CA,33.94,-118.41,0.78,False
+JFK,New York,NY,40.64,-73.78,0.88,False
+BOS,Boston,MA,42.36,-71.01,0.75,False
+DEN,Denver,CO,39.85,-104.67,0.65,False
+SEA,Seattle,WA,47.45,-122.31,0.62,False
+ATL,Atlanta,GA,33.64,-84.43,0.82,False
+LGA,New York LGA,NY,40.77,-73.87,0.9,False

@@ -1,0 +1,1 @@
+["inbound_delay_minutes", "scheduled_connection_minutes", "effective_connection_minutes", "airport_congestion_index", "is_hub_airport", "hour_of_day", "is_peak_hour", "accumulated_duty_minutes", "remaining_duty_minutes", "legs_flown_today", "aircraft_qualified", "turnaround_time", "weather_severity", "network_congestion"]

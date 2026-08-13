@@ -1,0 +1,110 @@
+[
+  {
+    "code": "ORD",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.97,
+    "lon": -87.9,
+    "congestion_index": 0.85,
+    "is_hub": true
+  },
+  {
+    "code": "DFW",
+    "city": "Dallas",
+    "state": "TX",
+    "lat": 32.89,
+    "lon": -97.04,
+    "congestion_index": 0.8,
+    "is_hub": true
+  },
+  {
+    "code": "CLT",
+    "city": "Charlotte",
+    "state": "NC",
+    "lat": 35.21,
+    "lon": -80.94,
+    "congestion_index": 0.7,
+    "is_hub": true
+  },
+  {
+    "code": "MIA",
+    "city": "Miami",
+    "state": "FL",
+    "lat": 25.79,
+    "lon": -80.29,
+    "congestion_index": 0.72,
+    "is_hub": true
+  },
+  {
+    "code": "PHX",
+    "city": "Phoenix",
+    "state": "AZ",
+    "lat": 33.43,
+    "lon": -112.01,
+    "congestion_index": 0.6,
+    "is_hub": false
+  },
+  {
+    "code": "LAX",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 33.94,
+    "lon": -118.41,
+    "congestion_index": 0.78,
+    "is_hub": false
+  },
+  {
+    "code": "JFK",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.64,
+    "lon": -73.78,
+    "congestion_index": 0.88,
+    "is_hub": false
+  },
+  {
+    "code": "BOS",
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.36,
+    "lon": -71.01,
+    "congestion_index": 0.75,
+    "is_hub": false
+  },
+  {
+    "code": "DEN",
+    "city": "Denver",
+    "state": "CO",
+    "lat": 39.85,
+    "lon": -104.67,
+    "congestion_index": 0.65,
+    "is_hub": false
+  },
+  {
+    "code": "SEA",
+    "city": "Seattle",
+    "state": "WA",
+    "lat": 47.45,
+    "lon": -122.31,
+    "congestion_index": 0.62,
+    "is_hub": false
+  },
+  {
+    "code": "ATL",
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.64,
+    "lon": -84.43,
+    "congestion_index": 0.82,
+    "is_hub": false
+  },
+  {
+    "code": "LGA",
+    "city": "New York LGA",
+    "state": "NY",
+    "lat": 40.77,
+    "lon": -73.87,
+    "congestion_index": 0.9,
+    "is_hub": false
+  }
+]
