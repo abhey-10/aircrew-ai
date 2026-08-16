@@ -9,8 +9,13 @@ import json
 import pickle
 import numpy as np
 import pandas as pd
-import shap
 from typing import Optional
+
+try:
+    import shap
+    SHAP_AVAILABLE = True
+except ImportError:
+    SHAP_AVAILABLE = False
 
 # ── PATHS ──────────────────────────────────────────────────────────────────────
 DATA_DIR = os.path.join(
@@ -50,7 +55,7 @@ def load_model():
     with open(FEATURE_COLS_PATH) as f:
         _feature_cols = json.load(f)
 
-    _explainer = shap.TreeExplainer(_model)
+    _explainer = shap.TreeExplainer(_model) if SHAP_AVAILABLE else None
     print("Model loaded successfully.")
 
     return _model, _scaler, _feature_cols, _explainer
@@ -89,11 +94,11 @@ def predict_misconnect(features: dict) -> dict:
         risk_level = "LOW"
 
     # SHAP explanation
-    shap_values = explainer.shap_values(X)
-    shap_row = shap_values[0]
-
-    # Build contribution list
-    contributions = []
+    top_contributions = []
+    if SHAP_AVAILABLE and _explainer is not None:
+        shap_values = _explainer.shap_values(X)
+        shap_row = shap_values[0]
+        contributions = []
     for feat, shap_val in zip(feature_cols, shap_row):
         contributions.append({
             "feature": feat,
@@ -101,8 +106,6 @@ def predict_misconnect(features: dict) -> dict:
             "feature_value": round(float(features.get(feat, 0)), 2),
             "direction": "increases_risk" if shap_val > 0 else "decreases_risk",
         })
-
-    # Sort by absolute SHAP value
     contributions.sort(key=lambda x: abs(x["shap_value"]), reverse=True)
     top_contributions = contributions[:5]
 
